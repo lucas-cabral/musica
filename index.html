@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lucas Cabral</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="http://www.lucascabral.net.br" class="link"
+          >lucas cabral.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#premios">Prêmios</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#musicas">Músicas</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contato">Contato</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">lucas cabral.</span></h1>
+        <h2 class="about__role">cantautor.</h2>
+		<figure>
+		<img src="./imagens/josetramontin.jpg" alt="Foto: José Tramontin">
+		<figcaption>Foto: José Tramontin</figcaption>
+		</figure>
+        <p class="about__desc">
+		Lucas Cabral é cantor, compositor, pesquisador e jornalista da cidade de
+		Ponta Grossa (PR). Começou a compor e cantar quando aprendeu a tocar violão, por
+		volta dos 12 anos de idade. Suas performances são em voz e violão e
+		carregam influências da MPB e do Folk.
+		</p>
+        <p class="about__desc">
+		Desde 2017 faz shows, participa de festivais e concorre em editais de
+		música, sendo premiado e reconhecido em algumas ocasiões. Em 2018 participou do
+		projeto "Mostra a tua cara" a convite de Klüber. Em 2019 tocou na
+		mostra competitiva da primeira edição do Festival Canta Curitiba. Foi vocalista das bandas "Todos os
+		Lanches que Comi Pensando em Você" e "Capivaras do Barigui", além de
+		integrante da dupla "Solavancos".
+		</p>
+		<p class="about__desc">
+		É formado em jornalismo pela Universidade Estadual de Ponta Grossa e
+		mestrando do Programa de Pós-graduação em Jornalismo da UEPG. Atuou em
+		projetos de jornalismo cultural como o Cultura Plural e o Lente Quente.
+        </p>
+		<p class="about__desc">
+		Hoje trabalha de modo independente na produção de seu primeiro EP.
+        </p>
+
+
+        <div class="about__contact center">
+
+          <a
+            href="https://soundcloud.com/lucas-cabral-4"
+            aria-label="soundcloud"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-soundcloud"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/luzzca/"
+            aria-label="instagram"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/oLucasCabral/"
+            aria-label="facebook"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-facebook"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="premios" class="section projects">
+        <h2 class="section__title">Prêmios</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>1º lugar da categoria composição no FUCA</h3>
+            <p class="project__description">
+				1º lugar com a música "Ensaios fotográficos" no Festival
+				Unicentro da Canção, em Guarapuava.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2017</li>
+            </ul>
+
+            <a
+              href="https://www.youtube.com/watch?v=KqsuyrEBrVU"
+              aria-label="linkdovideo"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>2º lugar da categoria composição no FUCA</h3>
+            <p class="project__description">
+				2º lugar com a música "Constantemente contato" no Festival
+				Unicentro da Canção, em Guarapuava.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2019</li>
+            </ul>
+
+            <a
+              href="https://www.youtube.com/watch?v=81vWgaY5DSU"
+              aria-label="linkdovideo"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Melhor música pelo júri popular do FUC</h3>
+            <p class="project__description">
+				Melhor música, de acordo com o júri popular, do Festival
+				Universitário da Canção de Ponta Grossa com a canção
+				"Constantemente contato".
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2021</li>
+            </ul>
+
+            <a
+              href="https://www.youtube.com/watch?v=ANgfDid9Mus"
+              aria-label="linkdovideo"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="musicas">
+        <h2 class="section__title">Outros projetos</h2>
+
+		<ul class="skills__list">
+		  <li class="skills__list-item btn btn--plain"><a href="https://youtu.be/QWZXk_3tAM0">Em casa com cultura 2021</a></li>
+          <li class="skills__list-item btn btn--plain"><a href="https://youtu.be/3ltux171ve0">Da gente (Conjunto de demos)</a></li>
+		  <li class="skills__list-item btn btn--plain"><a href="https://youtu.be/5mBFGpyzmv8">Carteira de motorista</a></li>
+        </ul>
+
+
+      </section>
+
+      <!-- Contact -->
+	  <div class="contato">
+      <section class="section contact center" id="contato">
+        <h2 class="section__title">Contato</h2>
+        <a href="mailto:lcabral.98@gmail.com">
+          <span class="btn btn--outline">Escreve aí!</span>
+        </a>
+      </section>
+	  </div>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Tema original criado por Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
